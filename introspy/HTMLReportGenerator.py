@@ -15,7 +15,7 @@ class HTMLReportGenerator:
     HTML_TEMPLATE_PATH = os.path.join(os.path.dirname(__file__), 'html')
     ANDROID_TEMPLATE = 'report-android.html'
     IOS_TEMPLATE = 'report-ios.html'
-    FINAL_TEMPLATE = 'report.html'
+    FINAL_TEMPLATE = 'kunlunReport.html'
 
 
     def __init__(self, analyzedDB, androidDb):
