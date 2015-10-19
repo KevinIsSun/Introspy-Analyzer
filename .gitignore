@@ -36,3 +36,5 @@ nosetests.xml
 .pydevproject
 
 test/*
+output/*
+introspy-ZM.customer.db
